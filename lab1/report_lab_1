@@ -1,0 +1,121 @@
+  @SoreCod3r ➜ /workspaces/os_lab_2019 (master) $ ls
+README.md  lab0  lab1  lab2  lab3  lab4  lab5  lab6  lab7  update.sh
+  @SoreCod3r ➜ /workspaces/os_lab_2019 (master) $ cd lab1'
+> ^C
+  @SoreCod3r ➜ /workspaces/os_lab_2019 (master) $ cd lab1
+  @SoreCod3r ➜ /workspaces/os_lab_2019/lab1 (master) $ ls
+src  text
+  @SoreCod3r ➜ /workspaces/os_lab_2019/lab1 (master) $ cd src
+  @SoreCod3r ➜ /workspaces/os_lab_2019/lab1/src (master) $ ls
+average.sh  background.sh  cake_rhymes.txt  hello.sh  numbers.txt  time.sh  with_cake.txt
+  @SoreCod3r ➜ /workspaces/os_lab_2019/lab1/src (master) $ ./background.sh&
+[1] 23233
+1 sec
+  @SoreCod3r ➜ /workspaces/os_lab_2019/lab1/src (master) $ 2 sec
+3 sec
+4 sec
+5 sec
+6 sec
+7 sec
+t8 sec
+ouc9 sec
+h 10 sec
+Done!
+^C
+[1]+  Done                    ./background.sh
+  @SoreCod3r ➜ /workspaces/os_lab_2019/lab1/src (master) $ ./background.sh &
+[1] 24661
+1 sec
+  @SoreCod3r ➜ /workspaces/os_lab_2019/lab1/src (master) $ 2 sec
+3 sec
+4 sec
+ca5 sec
+t 6 sec
+m7 sec
+y8 sec
+text9 sec
+10 sec
+.Done!
+txt
+[1]+  Done                    ./background.sh
+cat: mytext.txt: No such file or directory
+  @SoreCod3r ➜ /workspaces/os_lab_2019/lab1/src (master) $ bash background.sh &
+[1] 25510
+1 sec
+  @SoreCod3r ➜ /workspaces/os_lab_2019/lab1/src (master) $ 2 sec
+3 sec
+4 sec
+5 sec
+6 sec
+7 sec
+8 sec
+9 sec
+10 sec
+Done!
+echo 'Hello there!' > mytext.txt
+[1]+  Done                    bash background.sh
+  @SoreCod3r ➜ /workspaces/os_lab_2019/lab1/src (master) $ cat mytext.txt
+Hello there!
+  @SoreCod3r ➜ /workspaces/os_lab_2019/lab1/src (master) $ clear
+  @SoreCod3r ➜ /workspaces/os_lab_2019/lab1/src (master) $ wc mytext.txt
+ 1  2 13 mytext.txt
+  @SoreCod3r ➜ /workspaces/os_lab_2019/lab1/src (master) $ wc mytext.txt
+ 1  2 13 mytext.txt
+  @SoreCod3r ➜ /workspaces/os_lab_2019/lab1/src (master) $ ls
+average.sh  background.sh  cake_rhymes.txt  hello.sh  mytext.txt  numbers.txt  time.sh  with_cake.txt
+  @SoreCod3r ➜ /workspaces/os_lab_2019/lab1/src (master) $ cd ..
+  ]@SoreCod3r ➜ /workspaces/os_lab_2019/lab1 (master) $ ]ls
+bash: ]ls: command not found
+  @SoreCod3r ➜ /workspaces/os_lab_2019/lab1 (master) $ ls
+  src  text
+  @SoreCod3r ➜ /workspaces/os_lab_2019/lab1 (master) $ cd src
+  @SoreCod3r ➜ /workspaces/os_lab_2019/lab1/src (master) $ cat with_cake.txt | grep "cake" > cake_rhymes.txt
+  @SoreCod3r ➜ /workspaces/os_lab_2019/lab1/src (master) $ ls
+  average.sh  background.sh  cake_rhymes.txt  hello.sh  mytext.txt  numbers.txt  time.sh  with_cake.txt
+  @SoreCod3r ➜ /workspaces/os_lab_2019/lab1/src (master) $ cat cake_rhymes.txt | grep "cake" > with_cake.txt
+  @SoreCod3r ➜ /workspaces/os_lab_2019/lab1/src (master) $ ls
+  average.sh  background.sh  cake_rhymes.txt  hello.sh  mytext.txt  numbers.txt  time.sh  with_cake.txt
+  @SoreCod3r ➜ /workspaces/os_lab_2019/lab1/src (master) $ cat cake_rhymes.txt
+Here is some milk and oaten cake.
+And a halfpenny cake,
+I'll give you a cake
+She takes the cake -
+One day it's honey and raisin cake,
+Don't that take the cake
+With the big bad devil's food cake.
+Sweet as a cake
+I say let 'em all eat cake.
+And baked him a cake...
+  @SoreCod3r ➜ /workspaces/os_lab_2019/lab1/src (master) $ cat with_cake.txt
+Here is some milk and oaten cake.
+And a halfpenny cake,
+I'll give you a cake
+She takes the cake -
+One day it's honey and raisin cake,
+Don't that take the cake
+With the big bad devil's food cake.
+Sweet as a cake
+I say let 'em all eat cake...
+  @SoreCod3r ➜ /workspaces/os_lab_2019/lab1/src (master) $ rm aaa  &> /dev/null
+  @SoreCod3r ➜ /workspaces/os_lab_2019/lab1/src (master) $ rm aaa 
+rm: cannot remove 'aaa': No such file or directory
+  @SoreCod3r ➜ /workspaces/os_lab_2019/lab1/src (master) $ rm aaa  &> /dev/null
+  @SoreCod3r ➜ /workspaces/os_lab_2019/lab1/src (master) $ rm aaa 
+rm: cannot remove 'aaa': No such file or directory
+  @SoreCod3r ➜ /workspaces/os_lab_2019/lab1/src (master) $ ls
+average.sh  background.sh  cake_rhymes.txt  hello.sh  mytext.txt  numbers.txt  time.sh  with_cake.txt
+  @SoreCod3r ➜ /workspaces/os_lab_2019/lab1/src (master) $ chmod +x hello.sh
+  @SoreCod3r ➜ /workspaces/os_lab_2019/lab1/src (master) $ ./hello.sh
+Hello, world!
+  @SoreCod3r ➜ /workspaces/os_lab_2019/lab1/src (master) $ chmod +x time.sh
+  @SoreCod3r ➜ /workspaces/os_lab_2019/lab1/src (master) $ ./time.sh
+Текущий путь: /workspaces/os_lab_2019/lab1/src
+Текущая дата и время: Sun Sep 27 14:43:37 UTC 2026
+PATH: /vscode/bin/linux-x64/04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/bin/remote-cli:/home/codespace/.local/bin:/usr/local/rubies/current/bin:/home/codespace/.dotnet:/home/codespace/nvm/current/bin:/home/codespace/.php/current/bin:/home/codespace/.python/current/bin:/home/codespace/java/current/bin:/home/codespace/.ruby/current/bin:/home/codespace/.local/bin:/usr/local/python/current/bin:/usr/local/py-utils/bin:/usr/local/jupyter:/usr/local/oryx:/usr/local/go/bin:/go/bin:/usr/local/sdkman/bin:/usr/local/sdkman/candidates/java/current/bin:/usr/local/sdkman/candidates/gradle/current/bin:/usr/local/sdkman/candidates/maven/current/bin:/usr/local/sdkman/candidates/ant/current/bin:/usr/local/share/rbenv/shims:/usr/local/share/rbenv/bin:/usr/local/rubies/current/bin:/usr/local/php/current/bin:/opt/conda/bin:/usr/local/share/nvm/versions/node/v24.20.0/bin:/usr/local/hugo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/share/dotnet:/home/codespace/.dotnet/tools
+  @SoreCod3r ➜ /workspaces/os_lab_2019/lab1/src (master) $ chmod +x average.sh
+  @SoreCod3r ➜ /workspaces/os_lab_2019/lab1/src (master) $ od -An -N150 -tu1 /dev/random | tr -s ' ' '\n' | sed '/^$/d' > numbers.txt
+  @SoreCod3r ➜ /workspaces/os_lab_2019/lab1/src (master) $ wc -l numbers.txt
+150 numbers.txt
+  @SoreCod3r ➜ /workspaces/os_lab_2019/lab1/src (master) $ ./average.sh $(cat numbers.txt)
+Количество аргументов: 150
+Среднее арифметическое: 125.667
