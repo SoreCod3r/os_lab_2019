@@ -1,0 +1,170 @@
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following additional packages will be installed:
+  clang-format-18
+The following NEW packages will be installed:
+  clang-format clang-format-18
+0 upgraded, 2 newly installed, 0 to remove and 0 not upgraded.
+Need to get 59.7 kB of archives.
+After this operation, 269 kB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 clang-format-18 amd64 1:18.1.3-1ubuntu1 [53.8 kB]
+Get:2 http://archive.ubuntu.com/ubuntu noble/universe amd64 clang-format amd64 1:18.0-59~exp2 [5970 B]
+Fetched 59.7 kB in 0s (2849 kB/s)      
+debconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend requires a screen at least 13 lines tall and 31 columns wide.)
+debconf: falling back to frontend: Readline
+Selecting previously unselected package clang-format-18.
+(Reading database ... 46434 files and directories currently installed.)
+Preparing to unpack .../clang-format-18_1%3a18.1.3-1ubuntu1_amd64.deb ...
+Unpacking clang-format-18 (1:18.1.3-1ubuntu1) ...
+Selecting previously unselected package clang-format:amd64.
+Preparing to unpack .../clang-format_1%3a18.0-59~exp2_amd64.deb ...
+Unpacking clang-format:amd64 (1:18.0-59~exp2) ...
+Setting up clang-format-18 (1:18.1.3-1ubuntu1) ...
+Setting up clang-format:amd64 (1:18.0-59~exp2) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following NEW packages will be installed:
+  iputils-ping
+0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Need to get 44.6 kB of archives.
+After this operation, 124 kB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 iputils-ping amd64 3:20240117-1ubuntu0.1 [44.6 kB]
+Fetched 44.6 kB in 0s (2012 kB/s)       
+debconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend requires a screen at least 13 lines tall and 31 columns wide.)
+debconf: falling back to frontend: Readline
+Selecting previously unselected package iputils-ping.
+(Reading database ... 46465 files and directories currently installed.)
+Preparing to unpack .../iputils-ping_3%3a20240117-1ubuntu0.1_amd64.deb ...
+Unpacking iputils-ping (3:20240117-1ubuntu0.1) ...
+Setting up iputils-ping (3:20240117-1ubuntu0.1) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+gcc is already the newest version (4:13.2.0-7ubuntu1).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following NEW packages will be installed:
+  dos2unix
+0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Need to get 501 kB of archives.
+After this operation, 1868 kB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu noble/universe amd64 dos2unix amd64 7.5.1-1 [501 kB]
+Fetched 501 kB in 0s (2300 kB/s)
+debconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend requires a screen at least 13 lines tall and 31 columns wide.)
+debconf: falling back to frontend: Readline
+Selecting previously unselected package dos2unix.
+(Reading database ... 46474 files and directories currently installed.)
+Preparing to unpack .../dos2unix_7.5.1-1_amd64.deb ...
+Unpacking dos2unix (7.5.1-1) ...
+Setting up dos2unix (7.5.1-1) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following NEW packages will be installed:
+  libcunit1 libcunit1-dev libcunit1-doc
+0 upgraded, 3 newly installed, 0 to remove and 0 not upgraded.
+Need to get 188 kB of archives.
+After this operation, 658 kB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu noble/universe amd64 libcunit1 amd64 2.1-3-dfsg-2.7 [27.7 kB]
+Get:2 http://archive.ubuntu.com/ubuntu noble/universe amd64 libcunit1-dev amd64 2.1-3-dfsg-2.7 [58.4 kB]
+Get:3 http://archive.ubuntu.com/ubuntu noble/universe amd64 libcunit1-doc all 2.1-3-dfsg-2.7 [102 kB]
+Fetched 188 kB in 0s (814 kB/s)        
+debconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend requires a screen at least 13 lines tall and 31 columns wide.)
+debconf: falling back to frontend: Readline
+Selecting previously unselected package libcunit1:amd64.
+(Reading database ... 46598 files and directories currently installed.)
+Preparing to unpack .../libcunit1_2.1-3-dfsg-2.7_amd64.deb ...
+Unpacking libcunit1:amd64 (2.1-3-dfsg-2.7) ...
+Selecting previously unselected package libcunit1-dev:amd64.
+Preparing to unpack .../libcunit1-dev_2.1-3-dfsg-2.7_amd64.deb ...
+Unpacking libcunit1-dev:amd64 (2.1-3-dfsg-2.7) ...
+Selecting previously unselected package libcunit1-doc.
+Preparing to unpack .../libcunit1-doc_2.1-3-dfsg-2.7_all.deb ...
+Unpacking libcunit1-doc (2.1-3-dfsg-2.7) ...
+Setting up libcunit1-doc (2.1-3-dfsg-2.7) ...
+Setting up libcunit1:amd64 (2.1-3-dfsg-2.7) ...
+Setting up libcunit1-dev:amd64 (2.1-3-dfsg-2.7) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.9) ...
+@SoreCod3r ➜ /workspaces/os_lab_2019 (master) $ ping ya.ru
+PING ya.ru (77.88.55.242) 56(84) bytes of data.
+
+^C
+--- ya.ru ping statistics ---
+19 packets transmitted, 0 received, 100% packet loss, time 18437ms
+
+@SoreCod3r ➜ /workspaces/os_lab_2019 (master) $ ping ya.ru -c 5
+PING ya.ru (77.88.44.242) 56(84) bytes of data.
+
+--- ya.ru ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4124ms
+
+@SoreCod3r ➜ /workspaces/os_lab_2019 (master) $ ping google.com -c 5
+PING google.com (142.250.129.101) 56(84) bytes of data.
+
+--- google.com ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4101ms
+
+@SoreCod3r ➜ /workspaces/os_lab_2019 (master) $ gcc -v
+Using built-in specs.
+COLLECT_GCC=gcc
+COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04.1' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-EldibY/gcc-13-13.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-EldibY/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04.1) 
+@SoreCod3r ➜ /workspaces/os_lab_2019 (master) $ cd lab0
+@SoreCod3r ➜ /workspaces/os_lab_2019/lab0 (master) $ ls
+src  text
+@SoreCod3r ➜ /workspaces/os_lab_2019/lab0 (master) $ cd src
+@SoreCod3r ➜ /workspaces/os_lab_2019/lab0/src (master) $ ls
+hello  hello.c
+@SoreCod3r ➜ /workspaces/os_lab_2019/lab0/src (master) $ rv hello
+bash: rv: command not found
+@SoreCod3r ➜ /workspaces/os_lab_2019/lab0/src (master) $ rm hello
+rm: cannot remove 'hello': Is a directory
+@SoreCod3r ➜ /workspaces/os_lab_2019/lab0/src (master) $ cd hello
+@SoreCod3r ➜ .../os_lab_2019/lab0/src/hello (master) $ ls
+empty  newhello.c
+@SoreCod3r ➜ .../os_lab_2019/lab0/src/hello (master) $ rm empty | hello.c
+bash: hello.c: command not found
+@SoreCod3r ➜ .../os_lab_2019/lab0/src/hello (master) $ rm  hello.c
+rm: cannot remove 'hello.c': No such file or directory
+@SoreCod3r ➜ .../os_lab_2019/lab0/src/hello (master) $ ls
+newhello.c
+@SoreCod3r ➜ .../os_lab_2019/lab0/src/hello (master) $ rm hello.c
+rm: cannot remove 'hello.c': No such file or directory
+@SoreCod3r ➜ .../os_lab_2019/lab0/src/hello (master) $ rm newhello.c
+@SoreCod3r ➜ .../os_lab_2019/lab0/src/hello (master) $ cd ..
+@SoreCod3r ➜ /workspaces/os_lab_2019/lab0/src (master) $ rm hello
+rm: cannot remove 'hello': Is a directory
+@SoreCod3r ➜ /workspaces/os_lab_2019/lab0/src (master) $ rmdir hello
+@SoreCod3r ➜ /workspaces/os_lab_2019/lab0/src (master) $ mkdir hello
+@SoreCod3r ➜ /workspaces/os_lab_2019/lab0/src (master) $ ls
+hello  hello.c
+@SoreCod3r ➜ /workspaces/os_lab_2019/lab0/src (master) $ touch hello/empty
+@SoreCod3r ➜ /workspaces/os_lab_2019/lab0/src (master) $ cd hello
+@SoreCod3r ➜ .../os_lab_2019/lab0/src/hello (master) $ ls
+empty
+@SoreCod3r ➜ .../os_lab_2019/lab0/src/hello (master) $ cd ..
+@SoreCod3r ➜ /workspaces/os_lab_2019/lab0/src (master) $ ls
+hello  hello.c
+@SoreCod3r ➜ /workspaces/os_lab_2019/lab0/src (master) $ cp hello.c hello/newhello.c
+@SoreCod3r ➜ /workspaces/os_lab_2019/lab0/src (master) $ cd hello
+@SoreCod3r ➜ .../os_lab_2019/lab0/src/hello (master) $ ls
+empty  newhello.c
