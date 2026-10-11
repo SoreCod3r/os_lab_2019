@@ -1,0 +1,8 @@
+# Бинарные файлы
+*.o
+*.a
+*.so
+a.out
+revert_dynamic
+revert_static
+revert_test
