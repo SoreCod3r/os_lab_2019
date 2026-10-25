@@ -10,8 +10,13 @@ parallel_min_max : utils.o find_min_max.o utils.h find_min_max.h
 utils.o : utils.h
 	$(CC) -o utils.o -c utils.c $(CFLAGS)
 
+launcher: launcher.c | sequential_min_max
+	$(CC) $(CFLAGS) -o launcher launcher.c
+
 find_min_max.o : utils.h find_min_max.h
 	$(CC) -o find_min_max.o -c find_min_max.c $(CFLAGS)
+
+all : sequential_min_max parallel_min_max launcher
 
 clean :
 	rm utils.o find_min_max.o sequential_min_max parallel_min_max
